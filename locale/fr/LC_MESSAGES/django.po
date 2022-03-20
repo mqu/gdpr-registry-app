@@ -32,6 +32,7 @@ msgstr "Appli de gestion RGPD"
 #: audit/admin.py:72 audit/models.py:94
 msgid "Name"
 msgstr "Nom"
+""
 
 #: audit/admin.py:77
 msgid "Surname"
@@ -952,7 +953,7 @@ msgstr "Licence"
 
 #: audit/templates/base.html:72
 msgid "GDPR Stages"
-msgstr "Etapes RGPDR"
+msgstr "Etapes RGPD"
 
 #: audit/templates/base.html:74
 msgid "Prev"
@@ -976,7 +977,7 @@ msgstr "Version"
 
 #: audit/templates/breach_detection.html:10
 msgid "GDPR Process - Data Breach Detection"
-msgstr "Processus GDPR - Détection des violations de données "
+msgstr "Processus RGPD - Détection des violations de données "
 
 #: audit/templates/breach_detection.html:15
 msgid "GDPR compliance prefigures a process where data management, once established, is constantly\n"
@@ -1072,7 +1073,7 @@ msgstr "À cette fin, votre organisation doit définir un plan de réponse aux i
 
 #: audit/templates/breach_response.html:31
 msgid "Incident Response Plan - How To"
-msgstr "Plan de réponse aux incident - Comment faire"
+msgstr "Plan de réponse aux incidents - Comment faire"
 
 #: audit/templates/breach_response.html:34
 msgid "Add Incident Response Plan for each Data Audit"
@@ -1134,7 +1135,7 @@ msgstr "Ajouter une réponse à une violation de données"
 
 #: audit/templates/breach_response.html:73
 msgid "Data Breach Response"
-msgstr "Réponse aux violation de données"
+msgstr "Réponse aux violations de données"
 
 #: audit/templates/breach_response.html:79
 msgid "Add Data Protection Impact Assessment (DPIA) for each Data Audit"
@@ -1216,7 +1217,7 @@ msgstr "il y a deux applications principales, à savoir"
 
 #: audit/templates/dashboard.html:15
 msgid "an <strong>access control</strong> application, that keeps track of all accesses in the admin interface"
-msgstr "une application de <strong>contrôle d'accès</strong>, qui garde une trace de tous accès dans l'interface d'administration"
+msgstr "une application de <strong>contrôle d'accès</strong>, qui garde une trace de tous les accès dans l'interface d'administration"
 
 #: audit/templates/dashboard.html:16
 msgid "an <strong>audit</strong> application, that keeps track of all GDPR activities in the admin interface (different, linked tables)"
@@ -1240,7 +1241,7 @@ msgstr "cette section fournit des liens vers la documentation de l'application d
 
 #: audit/templates/dashboard.html:21
 msgid "You can customize your dashboard, moving or removing each element. For technical details, please check out the django jet documentation (https://jet.readthedocs.io/en/latest/)"
-msgstr "Vous pouvez personnaliser le tableau de bord en déplaçant ou supprimant chaque élément. Pour les détails techniques, voir la documentation de django jet (https://jet.readthedocs.io/en/latest/)"
+msgstr "Vous pouvez personnaliser le tableau de bord en déplaçant ou supprimant chaque élément. Pour les détails techniques, voir la documentation de Django Jet (https://jet.readthedocs.io/en/latest/)"
 
 #: audit/templates/dashboard_modules/stat.html:12
 msgid "Nothing to show"
@@ -1298,7 +1299,7 @@ msgid "You just need to click on the suggestion displayed in the Registry Status
 "            Then, you can insert all details about your organization and save.\n"
 "        "
 msgstr "Si vous venez d'installer l'application, cliquez simplement sur la suggestion affiché dans le composant d'état du registre. Sinon, \n"
-"vous pouvez toujours accéder à \"Audit-> Vos organisations-> Ajouter une organisation\". A ce stade, vous pouvez entrer tous les détails sur la vôtre puis sauvegarder."
+"vous pouvez toujours accéder à \"Audit-> Vos organisations-> Ajouter une organisation\". A ce stade, vous pouvez entrer tous les détails sur la votre puis sauvegarder."
 
 #: audit/templates/data_audit.html:42
 msgid "In this example, we create an imaginary organization <strong>Acme Inc</strong>"
@@ -1380,7 +1381,7 @@ msgstr "<strong>Exemples d'activités de traitement</strong> : Contractualisatio
 
 #: audit/templates/data_audit.html:109
 msgid "Add Processing Activity"
-msgstr "Ajouter une procedure d'activité"
+msgstr "Ajouter une procédure d'activité"
 
 #: audit/templates/data_audit.html:112
 msgid "Contractualization"
@@ -1435,7 +1436,7 @@ msgstr "Documents des identités"
 
 #: audit/templates/data_policy.html:10
 msgid "GDPR Process - Data Management Policy"
-msgstr "Process RGPD - Gestion des données"
+msgstr "Process RGPD - Politique de gestion des données"
 
 #: audit/templates/data_policy.html:15
 msgid "Once the data audit has been performed and\n"
@@ -1455,11 +1456,11 @@ msgstr "Le résultat de cette analyse devrait produire un rapport pour chaque ca
 
 #: audit/templates/data_policy.html:29
 msgid "Data Management Policy - How To"
-msgstr "Police de gestion des données - Comment faire"
+msgstr "Politique de gestion des données - Comment faire"
 
 #: audit/templates/data_policy.html:33
 msgid "Add a Data Management Policy to each Data Audit"
-msgstr "Ajouter une police de gestion de données pour chacun des audits de données"
+msgstr "Ajouter une politique de gestion de données pour chacun des audits de données"
 
 #: audit/templates/data_policy.html:36
 msgid "In the edit page of the data audit, click on the add (+) icon for the field \"data management policy\".\n"
@@ -1651,7 +1652,7 @@ msgstr "Comprend un document détaillé sur les mesures d'atténuation des risqu
 
 #: audit/templates/key_features.html:51
 msgid "You may add as many entries as you require in the registry, e.g., unlimited number of organizations, business processes, activities, data audits, and so on."
-msgstr "Vous pouvez ajouter toutes les entrées nécessaires dans le registre, par exemple. Nombre illimité d'organisations, de processus métier, d'activités, de vérifications de données, etc."
+msgstr "Vous pouvez ajouter toutes les entrées nécessaires dans le registre, par exemple, nombre illimité d'organisations, de processus métier, d'activités, de vérifications de données, etc."
 
 #: audit/templates/key_features.html:54
 msgid "Hierarchical Structure - Example"
@@ -1822,7 +1823,7 @@ msgstr "Détails sur le DPIA (le cas échéant), avec lien vers le document PDF.
 
 #: audit/templates/license.html:5
 msgid "GDPR Registry Web App License"
-msgstr " GDPR Registry Web App License"
+msgstr "GDPR Registry Web App License"
 
 #: audit/templates/license.html:7
 msgid "\n"
@@ -1869,7 +1870,8 @@ msgstr "\n"
 msgid "\n"
 "Copy of the official version published at <a href=\"https://www.gnu.org/licenses/agpl-3.0.html\">https://www.gnu.org/licenses/agpl-3.0.html</a>\n"
 ""
-msgstr "\n"
+msgstr "Copie de la version officielle publiée à cette adresse : <a href=\"https://www.gnu.org/licenses/agpl-3.0.html\">https://www.gnu.org/licenses/agpl-3.0.html</a>\n"
+"\n"
 ""
 
 #: audit/views.py:30
